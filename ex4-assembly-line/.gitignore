@@ -1,0 +1,28 @@
+# Build artifacts
+/build/
+/*.o
+/*.obj
+/*.exe
+/*.dll
+/*.lib
+/*.a
+/*.pdb
+
+# CMake files
+/CMakeFiles/
+/CMakeCache.txt
+/Makefile
+/*.cmake
+
+# Ignore the Testing folder
+/Testing/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# IDE-specific files
+/.vscode/
+/*.user
+/*.workspace

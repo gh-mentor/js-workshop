@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Target modern JavaScript
+    "module": "commonjs", // Use CommonJS for Node.js compatibility
+    "outDir": "./dist", // Output directory for compiled files
+    "rootDir": "./", // Root directory for source files and tests
+    "strict": true, // Enable strict type checking
+    "esModuleInterop": true, // Allow interoperability with CommonJS modules
+    "moduleResolution": "node", // Use Node.js module resolution
+    "sourceMap": true, // Generate source maps for debugging
+    "resolveJsonModule": true // Allow importing JSON files
+  },
+  "include": [
+    "./src/**/*.ts", // Include all TypeScript files in the src folder
+    "./tests/**/*.ts" // Include all TypeScript files in the tests folder
+  ],
+  "exclude": [
+    "./node_modules" // Exclude dependencies
+  ]
+}
