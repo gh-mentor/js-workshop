@@ -143,27 +143,5 @@ function updateEmployeeDepartment(employeeId, newDepartment) {
 }
 ```
 
-```js
-// Good example of a function to generate a report with proper string concatenation using template literals
-/**
- * Generates a report for an employee.
- * @param {string} employeeId The ID of the employee.
- * @param {string} employeeName The name of the employee.
- * @param {number} employeeSalary The salary of the employee.
- * @returns {string} A string containing the report of the employee.
- */
-function generateEmployeeReport(employeeId, employeeName, employeeSalary) {
-  return `Employee Report
-ID: ${employeeId}
-Name: ${employeeName}
-Salary: ${employeeSalary}
-`;
-}
-```
-  ss << "ID: " << employeeId << "\n";
-  ss << "Name: " << employeeName << "\n";
-  ss << "Salary: " << employeeSalary << "\n";
-  return ss.str();
-}
-```
+
 
