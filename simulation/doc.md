@@ -30,14 +30,11 @@ There are 5 teams of QC Engineers, each team has 3 members working in parallel M
 o		The backlog is the number of MWs that are still in the queue.
 
 ## Instructions and Suggestions
--	Design, implement, and test a C++ 20 (or greater) simulation model for a manufacturing process using GitHub Copilot as an AI guide and assistant.
 -	Consider using GitHub code instructions to influence the suggestions Copilot generates.
--	Use Doctest or GoogleTest for creating unit tests.
+-	Use a recommended test framework for creating unit tests.
 -	Use multithreading to simulate the parallel processes of assembly and quality control.
--	Implement a queue to manage the flow of MWs from assembly to quality control.
 -	Use a logging library (or create your own) to generate summary reports 
 -	Encapsulate different components of the simulation using a class-based approach.
--	Use Doxygen comments on all operations to document the code.
 -	Adhere to SOLID design principles to ensure maintainability and scalability of the code.
 -	All the key details should be incorporated into the final solution
 -	Be creative in the design and implementation of the simulation model.
