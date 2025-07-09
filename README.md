@@ -1,3 +1,3 @@
-# GitHub Copilot Workshop JavaScript /  TypeScript / NodeJS
+### GitHub Copilot Workshop JavaScript /  TypeScript / NodeJS
 
 
